@@ -1,0 +1,17 @@
+name: SpawnLocalization
+version: 0.3
+main: com.github.baguzid.SpawnLocalization
+commands:
+     spawnloc:
+         description: Coloca el spawn en el sitio elegido
+         permissions: spawnlocalization.spawnloc
+         usage: /spawnloc
+     spawngo:
+         description: Te envia al spawn
+         permissions: spawnlocalization.spawnloc
+         usage: /spawngo
+permissions:
+  spawnlocalization.spawnloc:
+    default: op
+  spawnlocalization.spawngo:
+    default: false
